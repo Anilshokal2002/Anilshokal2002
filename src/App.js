@@ -1,9 +1,11 @@
 import './App.css';
-import { BrowserRouter as Router,Route, Routes} from "react-router-dom"
+// import { BrowserRouter as Router,Route, Routes} from "react-router-dom"
 // import Header from './components/Header/Header';
 import Create from './MyPractice/Create';
 import Read from './MyPractice/Read';
 import Update from './MyPractice/update';
+import Header from './components/Header/Header';
+import Com from './components/ContextExample/Com';
 // import Update from './MyPractice/update';
 // import Popup3 from './MyPractice/Create';
 function App() {
@@ -27,10 +29,11 @@ function App() {
 
 
 
-
+<Header/>
 <Create/>
-<Read/>
-<Update/>
+{/* <Read/> */}
+{/* <Update/> */}
+<Com/>
 
 
 
